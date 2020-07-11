@@ -1,0 +1,170 @@
+body {
+    margin: 0 auto;
+    font-family: 'Merienda One', cursive;
+}
+
+.backgr-img {
+    background: url(bg-img.jpg);
+    -webkit-background-size: cover;
+    height: 100vh;
+    background-size: cover;
+}
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(233, 216, 216);
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1% 10%;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#navbar a:hover {
+    background-color: tomato;
+    color: black;
+}
+
+@media only screen and (max-width:360px) {
+    #navbar {
+        overflow: hidden;
+        background-color: rgb(233, 216, 216);
+        position: relative;
+        top: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+
+/* .img-responsive:hover {
+                        max-width: 110%;
+                        position: relative;
+                        margin-left: .7rem;
+                        border: 2px solid black;
+                    }
+                     */
+
+.img-wrapper {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0%, -50%);
+}
+
+.img-wrapper h1 {
+    font-size: 2.4em;
+}
+
+.img-wrapper span {
+    margin-left: 5rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form_code {
+    text-align: center;
+}
+
+.form_code .post_code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: 0.6rem;
+    border: none;
+    outline: none;
+}
+
+.form_code button {
+    width: 40%;
+    text-align: center;
+    background-color: tomato;
+    color: white;
+    padding: 0.6rem;
+    border-radius: .3rem;
+    border: none;
+    margin: 1rem auto 0rem;
+}
+
+.items {
+    width: 80%;
+    margin-top: 4.3rem;
+    /* margin-right: auto; */
+    margin-left: 151px;
+}
+
+.list-items {
+    float: left;
+    width: 32%;
+    margin-left: .5rem;
+}
+
+.list-items:first-of-type {
+    margin-left: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    ;
+    font-size: larger;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: tomato;
+    font-size: larger;
+    border-bottom: 2px solid black;
+}
+
+.item-heading {
+    color: rgb(165, 11, 11);
+}
+
+.map {
+    height: 500px;
+    width: 100%;
+    margin: 40px 0px 40px 0px;
+}
+
+.map-heading {
+    text-align: center;
+    color: tomato;
+}
+
+#footer {
+    background-color: black;
+    /* position: relative; */
+    height: 100px;
+    /* margin-top: -100px; */
+    /* clear: both; */
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 05px;
+    padding-bottom: 0 auto;
+    /* position: fixed; */
+}
+
+.transition {
+    text-decoration: none;
+    color: tomato;
+}
+
+color: tomato;
+
+}
